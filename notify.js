@@ -1,5 +1,5 @@
-const accountID = 'AC2f5e79c87d10ce4f974c75814b9746c1';
-const authToken = '2a267800b251c622082446878fb8bf47';
+const accountID = 'ACCOUNT ID HERE';
+const authToken = 'AUTH TOKEN HERE';
 const client = require('twilio')(accountID, authToken);
 const nodemailer = require('nodemailer');
 
