@@ -8,7 +8,6 @@ function track(url, args) {
     let base = '';
     getSiteChecksum(url).then(function (res) {
         base = res;
-        console.log(base);
     });
 
     let tracker = new CronJob({
@@ -27,7 +26,7 @@ function track(url, args) {
         timeZone: 'America/Los_Angeles'
     });
     tracker.start();
-    console.log('start tracker');
+    console.log('Monitor started...');
 }
 
 async function getSiteChecksum(url) {
