@@ -5,9 +5,7 @@ Command line interface app that monitors for changes on a given webpage and noti
 ## Installation
 You need [Node](https://nodejs.org/) installed on your local machine.
 
-1. Clone this repository
-2. Type `npm install` into the command line to install required dependencies
-3. Type `npm link` into the command line from within the repository directory
+Run `npm install -g sitemonitor`
 
 ## Usage
 
