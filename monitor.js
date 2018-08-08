@@ -10,7 +10,6 @@ program
     .option('-p, --phone <number>', 'Notification phone number')
     .option('-e, --email <address>', 'Notification email address')
     .action(function (url, args) {
-        console.log(args.message);
         track.track(url, args);
     });
 
